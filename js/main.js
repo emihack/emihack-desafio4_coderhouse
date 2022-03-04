@@ -1,12 +1,12 @@
 let destino = prompt ("Elige un destino a donde puedas ir en auto").toUpperCase();
 
-let presupuesto = parseInt( prompt ("¿Cuanto dispones para destinarle a los gastos del vehículo?"));
+let presupuesto = parseInt( prompt ("¿Cuanto dinero dispones para destinarle a tu viaje?"));
 
 let combustible = parseInt(prompt("Cuanto dispones para destinarle al combustible?")) ;
 
 let comida = parseInt(prompt ("Cuanto dispones para destinarle a los gastos de la comida?")) ;
 
-let seguro = parseInt(prompt ("Cuanto dispones para destinarle para los gastos en seguro?")) ;
+let seguro = parseInt(prompt ("Cuanto dispones para destinarle a los gastos en seguro?")) ;
 
 let gastos = parseInt(seguro) + parseInt (combustible) + parseInt (comida);
 
